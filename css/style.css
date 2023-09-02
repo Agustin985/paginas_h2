@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navegacion{
+  
+    background-color: rgb(59, 235, 59);
+  padding: 40px;
+ 
+
+}    
+
+.inicio{
+    
+  border: 4px solid black;
+    color: black;
+    padding: 5px;
+    position: absolute;
+    top: 2.5%;
+    right: 64.5%;
+    text-decoration: none;
+   
+}
+.contacto{
+    border: 4px solid black;
+    color: black;
+    padding: 5px;
+    position: absolute;
+    top: 2.5%;
+    right: 49%;
+    text-decoration: none;
+}
+
+.h2argentina{
+    border: 4px solid black;
+    color: black;
+    padding: 5px;
+    position: absolute;
+    top: 2.5%;
+    right: 32%;
+    text-decoration: none;
+}
+
+.modelos{
+    border: 4px solid black;
+    color: black;
+    padding: 5px;
+    position: absolute;
+    top: 2.5%;
+    right:18%;
+    text-decoration: none;
+}
+.galeria{  
+    border: 4px solid black;
+    color: black;
+    padding: 5px;
+    position: absolute;
+    top: 2.5%;
+    right: 5%;
+    text-decoration: none;
+}
+.h3{
+    color: black;
+    border: 4px solid black;
+    padding: 6px;
+    position: absolute;
+    top: 2.5%;
+    right: 89%;
+    font-size: medium;
+}
+.columna{
+    position: relative;
+    background-color: black;
+    width: 200px;
+    height: 1010px;
+}
+.h1{
+    position: absolute;
+    top: 0%;
+    left: 110%;
+    font-size: 400%;
+    font-style: oblique;
+
+
+}
+.img1{
+    position: relative;
+    width: 1267px; 
+    height: 200px;
+  left:  100%;
+     
+}
+.instagram{
+    position: absolute;
+    color: rgb(26, 214, 26);
+    border: solid rgb(26, 214, 26);
+    border-radius:30px;
+    padding: 5px;
+    text-decoration: none;
+font-size: 150%;
+left: 20%;
+top: 5%;
+} 
+.facebook{
+    position: absolute;
+    color: rgb(26, 214, 26);
+    border: solid rgb(26, 214, 26);
+    border-radius:30px;
+    padding: 5px;
+    text-decoration: none;
+font-size: 150%;
+left: 20%;
+top: 15%;
+}
+.whatsapp{
+    position: absolute;
+    color: rgb(26, 214, 26);
+    border: solid rgb(26, 214, 26);
+    border-radius:30px;
+    padding: 5px;
+    text-decoration: none;
+font-size: 150%;
+left: 20%;
+top: 25%;
+}
+.img2{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    left: 100%;
+}
+.img3{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    left: 400%;  
+}
+.text1{
+    position: relative;
+     top: 50%;
+     width: 25%;
+     right: 10%;
+ 
+
+    
+}
+.text2{
+    position: absolute;
+    top: 70%;
+   left:  110%;
+   width: 500px;
+     
+     
+
+}
+/*seccion de contacto*/
+.columna2{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 1010px;
+}
+.textc1{
+    position: absolute;
+    color: rgb(49, 241, 49);
+    top: 30%;
+    left:  10%;
+    width: 500px;
+}
+.form_control{
+    position: relative;
+    color: aqua;
+    right: -45%;
+    top: 20%;
+}
+/* seccion de h2 en argentina*/
+
+.imgh1{
+    position: relative;
+    width: 440px;
+    height: 700px;
+    left: 100%;
+}
+.texth1{
+    position: absolute;
+     top: 5%;
+     width: 180%;
+     right: -500%;
+}
+.titulo1{
+    color: rgb(0, 91, 0);
+    font-size: 200%;
+}    
+.texth2{
+    position: absolute;
+     top: 30%;
+     width: 180%;
+     right: -500%;
+}
+.titulo2{
+    color: rgb(0, 91, 0);
+    font-size: 200%;
+}
+.conse{
+    position: absolute;
+     top: 75%;
+     width: 110%;
+     right: -400%;
+     color: rgb(24, 186, 24);
+    border: solid rgb(0, 0, 0);
+    border-radius:30px;
+    padding: 5px;
+     
+} 
+.imgh1{
+    position: relative;
+    width: 440px;
+    height: 503px;
+    left: 100%;
+}
+/* seccion de modelo*/
+.mh1{
+    position: absolute;
+    right: -450%;
+    font-size: 300%;
+    font-style: oblique;
+    
+}
+.imgm1{
+    position: relative;
+    right: -20%;
+    top: 10%;
+}
+.titulo2m{
+    position: absolute;
+    top: 15%;
+    width: 170%;
+    right: -500%;
+}
+.kawa{
+    position: absolute;
+    right: -620%;
+    top: 50%;
+    
+}
+.kawatex{
+    position: absolute;
+    top: 65%;
+    width: 170%;
+    right: -200%;
+}
+.mh2{
+    position: absolute;
+    right: -180%;
+    font-size: 300%;
+    font-style: oblique; 
+    top: 2%;
+}
+/* seccion de galeria*/
+.columna3{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 1010px;
+}
+.galeria1{
+    position: absolute;
+    width: 400px;
+    height: 400px;   
+    left:  550px;
+   
+}
+.galeria2{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    right: 0px;
+}
+.galeria3{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}
+.video{
+    position: absolute;
+    top: 50%;
+    width: 800px;
+    height: 500px;
+left: 400px;
+} 

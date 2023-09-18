@@ -1,0 +1,350 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+
+} 
+ 
+ 
+.navegacion {
+   
+    background-color: rgb(59, 235, 59) ;
+   padding: 2%;
+   
+   
+}
+ 
+ li{
+    list-style: none;
+ }
+
+ .nav-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ } 
+
+.links{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border: solid black;
+
+}
+
+.columna{
+    position: absolute;
+    display: flex;
+    background-color: black;
+     width: 200px;
+    height: 166%;
+}
+
+
+
+
+
+
+.instagram{
+    position: absolute;
+    color: rgb(26, 214, 26);
+    border: solid rgb(26, 214, 26);
+    border-radius:30px;
+    padding: 5px;
+    text-decoration: none;
+font-size: 150%;
+left: 20%;
+top: 5%;
+} 
+.instagram:hover{
+   background-image: radial-gradient(black,green);
+}
+.facebook{
+    position: absolute;
+    color: rgb(26, 214, 26);
+    border: solid rgb(26, 214, 26);
+    border-radius:30px;
+    padding: 5px;
+    text-decoration: none;
+font-size: 150%;
+left: 20%;
+top: 15%;
+}
+.facebook:hover{
+    background-image: radial-gradient(black,green)
+}
+.whatsapp{
+    position: absolute;
+    color: rgb(26, 214, 26);
+    border: solid rgb(26, 214, 26);
+    border-radius:30px;
+    padding: 5px;
+    text-decoration: none;
+font-size: 150%;
+left: 20%;
+top: 25%;
+}
+.whatsapp:hover{
+    background-image: radial-gradient(black,green);
+}
+/*img2 y text1*/
+.imgyh1{
+    position: absolute;
+    height: 400px;
+    width: 86%;
+    display: flex;
+    justify-content: center;
+    top: 10.3%;
+    left: 13.7%;
+    
+    
+
+}
+.h1{
+    position: absolute;
+    left: 10%;
+    font-size: 500%;
+    font-style: oblique;
+    
+
+}
+.img1{
+   width: 100%;
+   height: 100%;
+   
+    
+    
+    
+  
+
+}
+.primeraparte{
+    position: absolute;
+    height: 400px;
+    width: 85.5%;
+    display: flex;
+    justify-content: center;
+    left: 13.8%;
+    top: 65%;
+}
+.img2{
+    width: 600px;
+    height: 400px;
+    padding-right: 10%;
+}
+    .text1{
+        padding-right:  20%;
+        
+
+
+}
+/* seccion segundaparte*/
+
+.segundaparte{
+    position: absolute;
+    height: 400px;
+    width: 85.5%;
+    display: flex;
+    justify-content: center;
+    left: 13.8%;
+    top: 122%;
+}
+.img3{
+    padding-right: 10%;
+    width: 600px;
+}
+.text2{
+   padding-top: 10%;
+   
+}
+
+/*seccion de contacto*/
+.columna2{
+    position: absolute;
+    display: flex;
+    background-color: black;
+    width: 100%;
+   height: 1000px;
+}
+.sec_contacto{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+   
+   
+}
+.textc1{
+    position: absolute;
+    color: rgb(49, 241, 49);
+    top: 10%;
+    
+    
+}
+.form_control{
+    position: absolute;
+    color: aqua;
+    top: 20%;
+    
+    
+}
+/* seccion de h2 en argentina*/
+.primerparte{
+    position: absolute;
+    height: 700px;
+    width: 85.5%;
+    display: flex;
+    justify-content: center;
+    left: 13.8%;
+    
+}
+
+.imgh1{
+    position: absolute;
+  width: 500px;
+  height: 700px;
+  right: 60%;
+}
+.titulo1{
+    color: rgb(50, 208, 50);
+    font-size: 200%;
+    font-style: oblique;
+}
+.texth1{
+    position: relative;
+    left: 45%;
+    top: 5%;
+}
+.titulo2{
+    color: rgb(50, 208, 50);
+    font-size: 200%;
+    font-style: oblique; 
+}
+.texth2{
+    position: relative;
+    top: 60%;
+    right: 10%;
+}
+.segundparte{
+    position: absolute;
+    height: 500px;
+    width: 85.5%;
+    display: flex;
+    justify-content: center;
+    left: 13.8%;
+    top: 107%;
+}
+.imgh2{
+position: absolute;
+    width: 50%;
+    height: 100%;  
+    left: 50%;
+}
+.conse{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: solid rgb(26, 191, 26);
+    border-radius: 80%;
+    padding: 1%;
+}
+   
+
+/* seccion de modelo*/
+.primerseccion{
+    position: absolute;
+    height: 580px;
+    width: 634%;
+    left: 98%;
+    display: flex;
+    justify-content: center;
+    
+   
+   
+}
+.imgm1{
+    position: absolute;
+    height: 520px;
+    width: 620px;
+    right:60% ;
+}
+.texto1{ 
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+.mh1{
+    position: relative;
+    left: 30%;
+    top: 5%;
+    font-size: 300%;
+    font-style: oblique;
+    color: rgb(30, 211, 30);
+}
+.mh2{
+    position: relative;
+    top: 85%;
+    right:  50%;
+    font-size: 200%;
+    font-style: oblique;
+}
+.segundaseccion{
+    position: absolute;
+    height: 580px;
+    width: 634%;
+    left: 98%;
+    display: flex;
+    justify-content: center;
+    top: 48%;
+    
+}
+.kawa{
+    position: absolute;
+    height: 520px;
+    width: 620px;
+    right: 50%;
+    top: 5%;
+}
+.kawatex{
+    position: absolute;
+    top: 40%; 
+    left: 55%;
+    
+}
+/* seccion de galeria*/
+.columna3{
+   position: absolute;
+   display: flex;
+   background-color: black;
+   width: 100%;
+   height: 100%;
+   
+   
+}
+.galeria1{
+    position: relative;
+    left: 1%;
+    width: 30%;
+    height: 40%;
+}
+.galeria2{
+    position: relative;
+    left: 5%;
+    width: 30%;
+    height: 40%;
+}
+.galeria3{
+    position: relative;
+    left: 9%;
+    width: 30%;
+    height: 40%;
+}
+.video{
+    position: relative;
+  width: 60%;
+  height: 50%;
+  top: 50%;
+  right: 58%;
+} 

@@ -1,3 +1,4 @@
+
 * {
     margin: 0 ;
     padding: 0 ;
@@ -7,8 +8,8 @@
  
 .navegacion {
    
-    background-color: rgb(59, 235, 59) ;
-    padding: 5px;
+    background-color: rgb(83, 234, 83);
+    padding: 15px;
     
  
     
@@ -155,6 +156,7 @@ left: 35%;
     flex-direction: column;
     left: 10%;
 }
+
 /* SECtor infoh2*/
 
 .primerparte{
@@ -301,19 +303,1588 @@ left: 35%;
 
 } 
 
-/* parte de gridss*/
-
-@media(min-width:600px) and (max-width:800px){
-    .navegacion{
-        padding: 20px;
+@media(min-width:320px) and (max-width:480px) and (max-height:480px){
+    .navegacion {
+   
+        background-color: rgb(83, 234, 83);
+        padding: 15px;
+        
+     
+        
     }
+     
+     li{
+        list-style: none;
+        
+     }
+    
+     .nav-contenedor{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+       
+       
+     } 
+    
     .links{
-        font-size: 75%;
+        text-decoration: none;
+        font-size: 65%;
         color: black;
         border: solid black;
-        border-radius: 30px;
-        padding: 5px;
+        border-radius: 10px;
+        padding: 1px;
     }
+    /* sector de redes*/
+    .columna{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+         width: 100%;
+        height: 30px;
+        bottom: 0;
+    }
+    
+    .instagram{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 70%;
+        right: 35%;
+    
+    
+    } 
+    .facebook{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 70%;
+        
+    
+    }
+    .whatsapp{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+    font-size: 70%;
+    left: 35%;
+    
+    }
+    /* img y h1*/
+    .imgyh1{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+    }
+    .img1{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+    }
+    .h1{
+        position: relative;
+        font-style: oblique;
+    }
+    /* primer parte*/
+    .primeraparte{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 118px;
+        top: 31%;
+    }
+    .text1{
+        position: relative;
+        font-size: 60%;
+        justify-content: center;
+    }
+    .img2{
+        position: relative;
+        width: 50%;
+        height: 100%;
+    }
+    /* sunda parte*/
+    
+    .segundaparte{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 170px;
+        top: 57%;
+        flex-direction: column;
+    }
+    .text2{
+        font-size: 60%;
+    }
+    
+    .img3{
+        width: 100%;
+        height: 60%;
+    }
+    /* sector contacto*/
+    .columna2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    .textc1{
+        color: aqua;
+    }
+    .form_control{ 
+        position: absolute;
+        color: aqua;
+       
+       
+    }
+    .contc{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 50%;
+    }
+    .cuad{
+        position: relative;
+        right: 40%;
+        width: 220%;
+    }
+    
+    /* SECtor infoh2*/
+    
+    .primerparte{
+        
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 320px;
+    }
+    .titulo1{
+           
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
+    
+    .texth1{
+        position: relative;
+        font-size: 40%;
+        left: 22%;
+    }
+    .titulo2{
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
+    
+    .texth2{
+        position: relative;
+        font-size: 37%;
+        top: 49%;
+        right: 20%;
+    }
+    .imgh1{
+        width: 50%;
+        height: 100%;
+    
+    }
+    .segundparte{
+        
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        top: 78%;
+       
+    }
+    .conse{
+        position: absolute;
+        width: 50%;
+        top: 45%;
+        font-size: 80%;
+        border: solid rgb(46, 199, 46);
+        border-radius: 120px;
+        color: black;
+    }
+    .imgh2{
+        position: relative;
+        width: 45%;
+        height: 100%;
+        left: 52%;
+    }
+    /*apertura de columna de h2*/
+    .columna5{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+         width: 100%;
+        height: 30px;
+        top: 122%;
+    }
+    
+    .instagram{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 70%;
+        right: 35%;
+    
+    
+    } 
+    .facebook{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 70%;
+        
+    
+    }
+    .whatsapp{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+    font-size: 70%;
+    left: 35%;
+    
+    }
+    /* cierre de h2*/
+
+    /* sector de modelos*/
+    .primerseccion{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 220px;
+       
+    }
+    .imgm1{
+        position: absolute;
+       width: 50%;
+       height: 80%;
+       top: 2%;   
+    }
+    .mh2{
+        position: relative;
+        font-size: 80%;
+        font-style: oblique;
+        right: 20%;
+        top: 80%;
+    }
+    .mh1{
+        position: relative;
+        left: 50%;
+        top: 1%;
+        font-size: 100%;
+        font-style: oblique;
+        color: rgb(30, 211, 30);
+    }
+    .texto1{ 
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        font-size: 70%;
+    }
+    .segundaseccion{
+        
+        position: absolute;
+        display: flex;
+        top: 56%;
+        width: 100%;
+        height: 160px;
+    }
+    .kawa{
+        position: relative;
+        top: 4%;
+        width: 45%;
+        height: 95%;
+    }
+    .kawatex{
+        position: relative;
+        font-size: 70%;
+        top: 20%;
+    }
+    /* sector de galeria*/
+    .columna3{
+        position: absolute;
+       display: flex;
+       background-color: black;
+       width: 100%;
+       height: 150%;
+    }
+    .galeria1{
+        position: relative;
+        left: 2%;
+        width: 46%;
+        height: 35%;
+    }
+    .galeria2{
+        position: relative;
+        left: 4%;
+        width:46% ;
+        height: 35%;
+    }
+    .galeria3{
+        position: relative;
+        right: 80%;
+        top: 36%;
+        width: 80%;
+        height: 30%;
+    }
+    .video{
+        position: relative;
+      width: 300px;
+      height: 40%;
+      right: 580px;
+      top: 60%;
+    
+    } 
+}
+@media(min-width:481px) and (max-width:600px) and (max-height:480px){
+    .navegacion {
+   
+        background-color: rgb(83, 234, 83);
+        padding: 15px;
+        
+     
+        
+    }
+     
+     li{
+        list-style: none;
+        
+     }
+    
+     .nav-contenedor{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+       
+       
+     } 
+    
+    .links{
+        text-decoration: none;
+        font-size: 95%;
+        color: black;
+        border: solid black;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    /* sector de redes*/
+    .columna{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+         width: 100%;
+        height: 30px;
+        bottom: 0;
+    }
+    
+    .instagram{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 70%;
+        right: 35%;
+    
+    
+    } 
+    .facebook{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 70%;
+        
+    
+    }
+    .whatsapp{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+    font-size: 70%;
+    left: 35%;
+    
+    }
+    /* img y h1*/
+    .imgyh1{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+    }
+    .img1{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+    }
+    .h1{
+        position: relative;
+        font-style: oblique;
+    }
+    /* primer parte*/
+    .primeraparte{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 118px;
+        top: 31%;
+    }
+    .text1{
+        position: relative;
+        font-size: 80%;
+        justify-content: center;
+    }
+    .img2{
+        position: relative;
+        width: 50%;
+        height: 100%;
+    }
+    /* sunda parte*/
+    
+    .segundaparte{
+      
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 170px;
+        top: 57%;
+        flex-direction: column;
+    }
+    .text2{
+        font-size: 70%;
+    }
+    
+    .img3{
+        width: 100%;
+        height: 60%;
+    }
+    /* sector contacto*/
+    .columna2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    .textc1{
+        color: aqua;
+    }
+    .form_control{ 
+        position: absolute;
+        color: aqua;
+       
+       
+    }
+    .contc{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 50%;
+    }
+    .cuad{
+        position: relative;
+        right: 40%;
+        width: 280%;
+    }
+    
+    /* SECtor infoh2*/
+    
+    .primerparte{
+        
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 320px;
+    }
+    .titulo1{
+           
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
+    
+    .texth1{
+        position: relative;
+        font-size: 50%;
+        left: 22%;
+    }
+    .titulo2{
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
+    
+    .texth2{
+        position: relative;
+        font-size: 50%;
+        top: 49%;
+        right: 20%;
+    }
+    .imgh1{
+        width: 50%;
+        height: 100%;
+    
+    }
+    .segundparte{
+        
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        top: 78%;
+       
+    }
+    .conse{
+        position: absolute;
+        width: 50%;
+        top: 45%;
+        font-size: 80%;
+        border: solid rgb(46, 199, 46);
+        border-radius: 120px;
+        color: black;
+    }
+    .imgh2{
+        position: relative;
+        width: 45%;
+        height: 100%;
+        left: 52%;
+    }
+    /*apertura de columna de h2*/
+    .columna5{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+         width: 100%;
+        height: 30px;
+        top: 122%;
+    }
+    
+    .instagram{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 70%;
+        right: 35%;
+    
+    
+    } 
+    .facebook{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 70%;
+        
+    
+    }
+    .whatsapp{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+    font-size: 70%;
+    left: 35%;
+    
+    }
+    /* cierre de h2*/
+
+    /* sector de modelos*/
+    .primerseccion{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 220px;
+       
+    }
+    .imgm1{
+        position: absolute;
+       width: 50%;
+       height: 80%;
+       top: 2%;   
+    }
+    .mh2{
+        position: relative;
+        font-size: 80%;
+        font-style: oblique;
+        right: 20%;
+        top: 80%;
+    }
+    .mh1{
+        position: relative;
+        left: 50%;
+        top: 1%;
+        font-size: 100%;
+        font-style: oblique;
+        color: rgb(30, 211, 30);
+    }
+    .texto1{ 
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        font-size: 70%;
+    }
+    .segundaseccion{
+        
+        position: absolute;
+        display: flex;
+        top: 56%;
+        width: 100%;
+        height: 160px;
+    }
+    .kawa{
+        position: relative;
+        top: 4%;
+        width: 45%;
+        height: 95%;
+    }
+    .kawatex{
+        position: relative;
+        font-size: 70%;
+        top: 20%;
+    }
+    /* sector de galeria*/
+    .columna3{
+        position: absolute;
+       display: flex;
+       background-color: black;
+       width: 100%;
+       height: 150%;
+    }
+    .galeria1{
+        position: relative;
+        left: 2%;
+        width: 46%;
+        height: 35%;
+    }
+    .galeria2{
+        position: relative;
+        left: 4%;
+        width:46% ;
+        height: 35%;
+    }
+    .galeria3{
+        position: relative;
+        right: 75%;
+        top: 36%;
+        width: 100%;
+        height: 30%;
+    }
+    .video{
+        position: relative;
+      width: 300px;
+      height: 40%;
+      right: 600px;
+      top: 60%;
+    
+    } 
+}
+@media (max-width:600px) and (max-height:800px){
+    .navegacion {
+   
+        background-color: rgb(83, 234, 83);
+        padding: 15px;
+        
+     
+        
+    }
+     
+     li{
+        list-style: none;
+        
+     }
+    
+     .nav-contenedor{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+       
+       
+     } 
+    
+    .links{
+        text-decoration: none;
+        font-size: 95%;
+        color: black;
+        border: solid black;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    /* sector de redes*/
+    .columna{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+         width: 100%;
+        height: 40px;
+        bottom: 0;
+    }
+    
+    .instagram{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 80%;
+        right: 35%;
+    
+    
+    } 
+    .facebook{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 80%;
+        
+    
+    }
+    .whatsapp{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+    font-size: 80%;
+    left: 35%;
+    
+    }
+    /* img y h1*/
+    .imgyh1{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 21%;
+    }
+    .img1{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .h1{
+        position: relative;
+        font-style: oblique;
+        font-size: xx-large;
+    }
+    /* primer parte*/
+    .primeraparte{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 24%;
+        top: 31%;
+    }
+    .text1{
+        position: relative;
+        font-size: 100%;
+        justify-content: center;
+    }
+    .img2{
+        position: relative;
+        width: 50%;
+        height: 100%;
+    }
+    /* sunda parte*/
+    
+    .segundaparte{
+       
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 35%;
+        top: 57%;
+        flex-direction: column;
+    }
+    .text2{
+        font-size: 75%;
+    }
+    
+    .img3{
+        width: 100%;
+        height: 60%;
+    }
+    /* sector contacto*/
+    .columna2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    .textc1{
+        color: aqua;
+    }
+    .form_control{ 
+        position: absolute;
+        color: aqua;
+       
+       
+    }
+    .contc{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 50%;
+    }
+    .cuad{
+        position: relative;
+        right: 40%;
+        width: 280%;
+    }
+    
+    /* SECtor infoh2*/
+    
+    .primerparte{
+        
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 67%;
+    }
+    .titulo1{
+           
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
+    
+    .texth1{
+        position: relative;
+        font-size: 58%;
+        left: 22%;
+    }
+    .titulo2{
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
+    
+    .texth2{
+        position: relative;
+        font-size: 55%;
+        top: 49%;
+        right: 20%;
+    }
+    .imgh1{
+        width: 50%;
+        height: 100%;
+    
+    }
+    .segundparte{
+        
+        position: absolute;
+        width: 100%;
+        height: 42%;
+        top: 78%;
+       
+    }
+    .conse{
+        position: absolute;
+        width: 50%;
+        top: 45%;
+        font-size: 80%;
+        border: solid rgb(46, 199, 46);
+        border-radius: 120px;
+        color: black;
+    }
+    .imgh2{
+        position: relative;
+        width: 45%;
+        height: 100%;
+        left: 52%;
+    }
+    /*apertura de columna de h2*/
+    .columna5{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+         width: 100%;
+        height: 30px;
+        top: 122%;
+    }
+    
+    .instagram{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 70%;
+        right: 35%;
+    
+    
+    } 
+    .facebook{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 70%;
+        
+    
+    }
+    .whatsapp{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+    font-size: 70%;
+    left: 35%;
+    
+    }
+    /* cierre de h2*/
+
+    /* sector de modelos*/
+    .primerseccion{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 220px;
+       
+    }
+    .imgm1{
+        position: absolute;
+       width: 50%;
+       height: 80%;
+       top: 2%;   
+    }
+    .mh2{
+        position: relative;
+        font-size: 80%;
+        font-style: oblique;
+        right: 20%;
+        top: 80%;
+    }
+    .mh1{
+        position: relative;
+        left: 50%;
+        top: 1%;
+        font-size: 100%;
+        font-style: oblique;
+        color: rgb(30, 211, 30);
+    }
+    .texto1{ 
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        font-size: 70%;
+    }
+    .segundaseccion{
+        
+        position: absolute;
+        display: flex;
+        top: 56%;
+        width: 100%;
+        height: 160px;
+    }
+    .kawa{
+        position: relative;
+        top: 4%;
+        width: 45%;
+        height: 95%;
+    }
+    .kawatex{
+        position: relative;
+        font-size: 70%;
+        top: 20%;
+    }
+    /* sector de galeria*/
+    .columna3{
+        position: absolute;
+       display: flex;
+       background-color: black;
+       width: 100%;
+       height: 150%;
+    }
+    .galeria1{
+        position: relative;
+        left: 2%;
+        width: 46%;
+        height: 35%;
+    }
+    .galeria2{
+        position: relative;
+        left: 4%;
+        width:46% ;
+        height: 35%;
+    }
+    .galeria3{
+        position: relative;
+        right: 75%;
+        top: 36%;
+        width: 100%;
+        height: 30%;
+    }
+    .video{
+        position: relative;
+      width: 300px;
+      height: 40%;
+      right: 800px;
+      top: 60%;
+    
+    }
+}
+/* sector de h2 (medidas)*/
+@media(min-height:650px) and (max-height:800px){
+
+    .primerparte{
+        
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 67%;
+    }
+    .titulo1{
+           
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
+    
+    .texth1{
+        position: relative;
+        font-size: 64%;
+        left: 22%;
+    }
+    .titulo2{
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
+    
+    .texth2{
+        position: relative;
+        font-size: 60%;
+        top: 49%;
+        right: 20%;
+    }
+    .imgh1{
+        width: 50%;
+        height: 100%;
+    
+    }
+    .segundparte{
+        
+        position: absolute;
+        width: 100%;
+        height: 42%;
+        top: 78%;
+       
+    }
+    .conse{
+        position: absolute;
+        width: 50%;
+        top: 45%;
+        font-size: 80%;
+        border: solid rgb(46, 199, 46);
+        border-radius: 120px;
+        color: black;
+    }
+    .imgh2{
+        position: relative;
+        width: 45%;
+        height: 100%;
+        left: 52%;
+    }
+}
+/* sector de modelos(medidas)*/
+@media (min-height:550px) and (max-height:800px){
+    .primerseccion{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 46%;
+       
+    }
+    .imgm1{
+        position: absolute;
+       width: 50%;
+       height: 80%;
+       top: 2%;   
+    }
+    .mh2{
+        position: relative;
+        font-size: 80%;
+        font-style: oblique;
+        right: 20%;
+        top: 80%;
+    }
+    .mh1{
+        position: relative;
+        left: 50%;
+        top: 1%;
+        font-size: 100%;
+        font-style: oblique;
+        color: rgb(30, 211, 30);
+    }
+    .texto1{ 
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        font-size: 90%;
+    }
+    .segundaseccion{
+        
+        position: absolute;
+        display: flex;
+        top: 56%;
+        width: 100%;
+        height: 35%;
+    }
+    .kawa{
+        position: relative;
+        top: 4%;
+        width: 45%;
+        height: 95%;
+    }
+    .kawatex{
+        position: relative;
+        font-size: 95%;
+        top: 20%;
+    }
+}
+@media (max-width:600px) and (min-height:800px) and (max-height:1024px){
+    .navegacion {
+   
+        background-color: rgb(83, 234, 83);
+        padding: 20px;
+        
+     
+        
+    }
+     
+     li{
+        list-style: none;
+        
+     }
+    
+     .nav-contenedor{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+       
+       
+     } 
+    
+    .links{
+        text-decoration: none;
+        font-size: 95%;
+        color: black;
+        border: solid black;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    /* sector de redes*/
+    .columna{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+         width: 100%;
+        height: 50px;
+        bottom: 0;
+    }
+    
+    .instagram{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 90%;
+        right: 35%;
+    
+    
+    } 
+    .facebook{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 90%;
+        
+    
+    }
+    .whatsapp{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+    font-size: 90%;
+    left: 35%;
+    
+    }
+    /* img y h1*/
+    .imgyh1{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 21%;
+    }
+    .img1{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .h1{
+        position: relative;
+        font-style: oblique;
+        font-size: xx-large;
+    }
+    /* primer parte*/
+    .primeraparte{
+       
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 28%;
+        top: 28%;
+    }
+    .text1{
+        position: relative;
+        font-size: 100%;
+        justify-content: center;
+        top: 20%;
+    }
+    .img2{
+        position: relative;
+        width: 50%;
+        height: 100%;
+    }
+    /* sunda parte*/
+    
+    .segundaparte{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 35%;
+        top: 57%;
+        flex-direction: column;
+    }
+    .text2{
+        font-size: 100%;
+    
+    }
+    
+    .img3{
+        width: 100%;
+        height: 60%;
+    }
+    /* sector contacto*/
+    .columna2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    .textc1{
+        color: aqua;
+    }
+    .form_control{ 
+        position: absolute;
+        color: aqua;
+       
+       
+    }
+    .contc{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 50%;
+    }
+    .cuad{
+        position: relative;
+        right: 40%;
+        width: 280%;
+    }
+    
+    /* SECtor infoh2*/
+    
+    .primerparte{
+        
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 70%;
+    }
+    .titulo1{
+           
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
+    
+    .texth1{
+        position: relative;
+        font-size: 70%;
+        left: 22%;
+    }
+    .titulo2{
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
+    
+    .texth2{
+        position: relative;
+        font-size: 70%;
+        top: 49%;
+        right: 20%;
+    }
+    .imgh1{
+        width: 50%;
+        height: 90%;
+    
+    }
+    .segundparte{
+        
+        position: absolute;
+        width: 100%;
+        height: 42%;
+        top: 78%;
+       
+    }
+    .conse{
+        position: absolute;
+        width: 50%;
+        top: 45%;
+        font-size: 80%;
+        border: solid rgb(46, 199, 46);
+        border-radius: 120px;
+        color: black;
+    }
+    .imgh2{
+        position: relative;
+        width: 45%;
+        height: 100%;
+        left: 52%;
+    }
+    /*apertura de columna de h2*/
+    .columna5{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+         width: 100%;
+        height: 30px;
+        top: 122%;
+    }
+    
+    .instagram{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 70%;
+        right: 35%;
+    
+    
+    } 
+    .facebook{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 70%;
+        
+    
+    }
+    .whatsapp{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+    font-size: 70%;
+    left: 35%;
+    
+    }
+    /* cierre de h2*/
+
+    /* sector de modelos*/
+    .primerseccion{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 420px;
+       
+    }
+    .imgm1{
+        position: absolute;
+       width: 50%;
+       height: 80%;
+       top: 2%;   
+    }
+    .mh2{
+        position: relative;
+        font-size: 100%;
+        font-style: oblique;
+        right: 20%;
+        top: 80%;
+    }
+    .mh1{
+        position: relative;
+        left: 50%;
+        top: 1%;
+        font-size: 150%;
+        font-style: oblique;
+        color: rgb(30, 211, 30);
+    }
+    .texto1{ 
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        font-size: 100%;
+    }
+    .segundaseccion{
+        
+        position: absolute;
+        display: flex;
+        top: 56%;
+        width: 100%;
+        height: 36%;
+    }
+    .kawa{
+        position: relative;
+        top: 4%;
+        width: 45%;
+        height: 95%;
+    }
+    .kawatex{
+        position: relative;
+        font-size: 110%;
+        top: 20%;
+    }
+    /* sector de galeria*/
+    .columna3{
+        position: absolute;
+       display: flex;
+       background-color: black;
+       width: 100%;
+       height: 150%;
+    }
+    .galeria1{
+        position: relative;
+        left: 2%;
+        width: 46%;
+        height: 35%;
+    }
+    .galeria2{
+        position: relative;
+        left: 4%;
+        width:46% ;
+        height: 35%;
+    }
+    .galeria3{
+        position: relative;
+        right: 85%;
+        top: 36%;
+        width: 80%;
+        height: 30%;
+    }
+    .video{
+        position: relative;
+      width: 450px;
+      height: 40%;
+      right: 950px;
+      top: 60%;
+    
+    }
+}
+@media (min-width:600px) and (max-width:768px) and (max-height:1024px){
+    .navegacion{
+        padding: 35px;
+    }
+    .links{
+        text-decoration: none;
+        font-size: 100%;
+        color: black;
+        border: solid black;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    /* sector de redes*/
     .columna{
         position: absolute;
         display: flex;
@@ -333,7 +1904,7 @@ left: 35%;
         border-radius:30px;
         padding: 4px;
         text-decoration: none;
-        font-size: 85%;
+        font-size: 110%;
         right: 35%;
     
     
@@ -343,9 +1914,9 @@ left: 35%;
         color: rgb(26, 214, 26);
         border: solid rgb(26, 214, 26);
         border-radius:30px;
-        padding: 4px;
+        padding: 2px;
         text-decoration: none;
-        font-size: 85%;
+        font-size: 110%;
         
     
     }
@@ -354,27 +1925,29 @@ left: 35%;
         color: rgb(26, 214, 26);
         border: solid rgb(26, 214, 26);
         border-radius:30px;
-        padding: 4px;
+        padding: 2px;
         text-decoration: none;
-    font-size: 85%;
+    font-size: 110%;
     left: 35%;
     
     }
     /* img y h1*/
     .imgyh1{
+        
         position: absolute;
         display: flex;
         width: 100%;
+        height: 21%;
     }
     .img1{
         position: absolute;
         width: 100%;
-        height: 130px;
+        height: 100%;
     }
     .h1{
         position: relative;
         font-style: oblique;
-        font-size: 145%;
+        font-size: xx-large;
     }
     /* primer parte*/
     .primeraparte{
@@ -382,12 +1955,12 @@ left: 35%;
         position: absolute;
         display: flex;
         width: 100%;
-        height: 200px;
-        top: 23.5%;
+        height: 26%;
+        top: 30%;
     }
     .text1{
         position: relative;
-        font-size: 90%;
+        font-size: 100%;
         justify-content: center;
         top: 20%;
     }
@@ -396,199 +1969,959 @@ left: 35%;
         width: 50%;
         height: 100%;
     }
-
-    /* segunda parte*/
+    /* sunda parte*/
     
     .segundaparte{
+        
         position: absolute;
         display: flex;
         width: 100%;
-        height: 450px;
-        top: 49%;
+        height: 35%;
+        top: 57%;
         flex-direction: column;
+    }
+    .text2{
+        font-size: 100%;
+    
+    }
+    
+    .img3{
+        width: 100%;
+        height: 60%;
+    }
+    /* sector contacto*/
+    .columna2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    .textc1{
+        font-size: 120%;
+        color: rgb(21, 255, 0);
+    }
+    .form_control{ 
+        font-size: 120%;
+        position: absolute;
+        color: aqua;
+       
+       
+    }
+    .contc{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 50%;
+    }
+    .cuad{
+        position: relative;
+        right: 40%;
+        width: 300%;
+    }
+    
+    /* SECtor infoh2*/
+    
+    .primerparte{
+       
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 70%;
+    }
+    .titulo1{
+           
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
+    
+    .texth1{
+        position: relative;
+        font-size: 85%;
+        left: 22%;
+    }
+    .titulo2{
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
+    
+    .texth2{
+        position: relative;
+        font-size: 80%;
+        top: 49%;
+        right: 20%;
+    }
+    .imgh1{
+        width: 50%;
+        height: 90%;
+    
+    }
+    .segundparte{
+        
+        position: absolute;
+        width: 100%;
+        height: 42%;
+        top: 78%;
+       
+    }
+    .conse{
+        position: absolute;
+        width: 50%;
+        top: 45%;
+        font-size: 80%;
+        border: solid rgb(46, 199, 46);
+        border-radius: 120px;
+        color: black;
+    }
+    .imgh2{
+        position: relative;
+        width: 45%;
+        height: 100%;
+        left: 52%;
+    }
+    /*apertura de columna de h2*/
+    .columna5{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+         width: 100%;
+        height: 30px;
+        top: 122%;
+    }
+    
+    .instagram{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 90%;
+        right: 35%;
+    
+    
+    } 
+    .facebook{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 90%;
+        
+    
+    }
+    .whatsapp{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+    font-size: 90%;
+    left: 35%;
+    
+    }
+    /* cierre de h2*/
+
+    /* sector de modelos*/
+    .primerseccion{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 460px;
+       
+    }
+    .imgm1{
+        position: absolute;
+       width: 50%;
+       height: 80%;
+       top: 2%;   
+    }
+    .mh2{
+        position: relative;
+        font-size: 100%;
+        font-style: oblique;
+        right: 20%;
+        top: 80%;
+    }
+    .mh1{
+        position: relative;
+        left: 50%;
+        top: 1%;
+        font-size: 150%;
+        font-style: oblique;
+        color: rgb(30, 211, 30);
+    }
+    .texto1{ 
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        font-size: 100%;
+    }
+    .segundaseccion{
+        
+        position: absolute;
+        display: flex;
+        top: 56%;
+        width: 100%;
+        height: 36%;
+    }
+    .kawa{
+        position: relative;
+        top: 4%;
+        width: 45%;
+        height: 95%;
+    }
+    .kawatex{
+        position: relative;
+        font-size: 110%;
+        top: 20%;
+    }
+    /* sector de galeria*/
+    .columna3{
+        position: absolute;
+       display: flex;
+       background-color: black;
+       width: 100%;
+       height: 150%;
+    }
+    .galeria1{
+        position: relative;
+        left: 2%;
+        width: 46%;
+        height: 35%;
+    }
+    .galeria2{
+        position: relative;
+        left: 4%;
+        width:46% ;
+        height: 35%;
+    }
+    .galeria3{
+        position: relative;
+        right: 85%;
+        top: 36%;
+        width: 80%;
+        height: 30%;
+    }
+    .video{
+        position: relative;
+      width: 450px;
+      height: 40%;
+      right: 150%;
+      top: 60%;
+    
+    }
+}
+@media (min-width:800px) and (max-width:1024px) and (max-height:768px) {
+    .navegacion{
+        padding: 30px;
+    }
+    .links{
+        text-decoration: none;
+        font-size: 130%;
+        color: black;
+        border: solid black;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    /* sector de redes*/
+    .columna{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+         width: 100%;
+        height: 60px;
+        bottom: 0;
+        top: 120%;
+    }
+    
+    .instagram{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 4px;
+        text-decoration: none;
+        font-size: 110%;
+        right: 35%;
+    
+    
+    } 
+    .facebook{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 110%;
+        
+    
+    }
+    .whatsapp{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+    font-size: 110%;
+    left: 35%;
+    
+    }
+    /* img y h1*/
+    .imgyh1{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 30%;
+    }
+    .img1{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .h1{
+        position: relative;
+        font-style: oblique;
+        font-size: xx-large;
+    }
+    /* primer parte*/
+    .primeraparte{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 38%;
+        top: 40%;
+    }
+    .text1{
+        position: relative;
+        font-size: 120%;
+        justify-content: center;
+        top: 20%;
+    }
+    .img2{
+        position: relative;
+        width: 50%;
+        height: 100%;
+    }
+    /* sunda parte*/
+    
+    .segundaparte{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 40%;
+        top: 79%;
+        justify-content: center;
+        
         
     }
     .text2{
-        font-size: 90%;
+        position: absolute;
+        font-size: 120%;
+        left: 60%;
+
+    
     }
+    
     .img3{
-        width: 100%;
-        height: 250px;
+        width: 60%;
+        height: 100%;
     }
-    /* sector contacto**************/
-.columna2{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-}
-.textc1{
-    position: absolute;
-    top: 15%; 
-    color: aqua;
-}
-.form_control{ 
-    position: absolute;
-    color: aqua;
-    top: 30%;
-    left: 30%;
-   
-}
-.contc{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    left: 10%;
-}
-/* SECtor infoh2*/
-
-.primerparte{
-    
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 420px;
-}
-.titulo1{
+    /* sector contacto*/
+    .columna2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    .textc1{
+        font-size: 120%;
+        color: rgb(21, 255, 0);
+    }
+    .form_control{ 
+        font-size: 120%;
+        position: absolute;
+        color: aqua;
        
-    font-size: 300%;
-    color: rgb(35, 199, 35);
-}
-
-.texth1{
-    position: relative;
-    font-size: 52%;
-    left: 17%;
-}
-.titulo2{
-    font-size: 300%;
-    color: rgb(35, 199, 35);
-}
-
-.texth2{
-    position: relative;
-    font-size: 55%;
-    top: 51%;
-    right: 20%;
-}
-.imgh1{
-    width: 50%;
-    height: 400px;
-
-}
-/* segunda parte*/
-.segundparte{
+       
+    }
+    .contc{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 50%;
+    }
+    .cuad{
+        position: relative;
+        right: 40%;
+        width: 300%;
+    }
     
-    position: absolute;
-    width: 100%;
-    height: 460px;
-    top: 55%;
-   
-}
-.conse{
-    position: relative;
-    left: 10%;
-    top: -25%;
-    font-size: 80%;
-    border: solid rgb(46, 199, 46);
-    border-radius: 120px;
-    color: black;
-}
-.imgh2{
-    position: relative;
-    width:320px ;
-    height:250px ;
-    left: 15%;
-    top: 10%;
-}
-/* sector de modelos*/
-.primerseccion{
+    /* SECtor infoh2*/
     
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 400px;
-   
-}
-.imgm1{
-    position: absolute;
-   width: 50%;
-   height: 300px;
-   top: 5%;   
-}
-.texto1{ 
-    position: absolute;
-    left: 50%;
-    top: 20%;
-    font-size: 95%;
-}
-.mh1{
-    position: relative;
-    left: 60%;
-    top: 5%;
-    font-size: 150%;
-    font-style: oblique;
-    color: rgb(30, 211, 30);
-}
-.mh2{
-    position: relative;
-    font-size: 80%;
-    font-style: oblique;
-    right: 10%;
-    top: 75%;
-}
-.segundaseccion{
+    .primerparte{
+        
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 65%;
+    }
+    .titulo1{
+           
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
     
-    position: absolute;
-    display: flex;
-    top: 60%;
-    width: 100%;
-    height: 250px;
+    .texth1{
+        position: relative;
+        font-size: 85%;
+        left: 22%;
+    }
+    .titulo2{
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
     
-}
-.kawa{
-    position: relative;
-    width: 45%;
-}
-.kawatex{
-    position: absolute;
-    font-size: 100%;
-    top: 5%;
-    left: 50%;
-}
-.columna3{
-    position: absolute;
-   display: flex;
-   background-color: black;
-   width: 100%;
-   height: 87%;
-}
-.galeria1{
-    position: relative;
-    left: 1%;
-    width: 270px;
-    height: 270px;
-}
-.galeria2{
-    position: relative;
-    left: 3%;
-    width: 300px;
-    height: 270px;
-}
-.galeria3{
-    position: relative;
-    right: 70%;
-    top: 40%;
-    width: 506px;
-    height: 200px;
-}
-.video{
-    position: relative;
-  width: 450px;
-  height: 200px;
-  right: 120%;
-  top: 70%;
+    .texth2{
+        position: relative;
+        font-size: 90%;
+        top: 49%;
+        right: 20%;
+    }
+    .imgh1{
+        width: 50%;
+        height: 90%;
+    
+    }
+    .segundparte{
+        
+        position: absolute;
+        width: 100%;
+        height: 42%;
+        top: 77%;
+       
+    }
+    .conse{
+        position: absolute;
+        width: 50%;
+        top: 45%;
+        font-size: 80%;
+        border: solid rgb(46, 199, 46);
+        border-radius: 120px;
+        color: black;
+    }
+    .imgh2{
+        position: relative;
+        width: 45%;
+        height: 100%;
+        left: 52%;
+    }
+    /*apertura de columna de h2*/
+    .columna5{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+         width: 100%;
+        height: 50px;
+        top: 120%;
+    }
+    
+    .instagram{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 120%;
+        right: 35%;
+    
+    
+    } 
+    .facebook{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 120%;
+        
+    
+    }
+    .whatsapp{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+    font-size: 120%;
+    left: 35%;
+    
+    }
+    /* cierre de h2*/
 
-} 
+    /* sector de modelos*/
+    .primerseccion{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 50%;
+       
+    }
+    .imgm1{
+        position: absolute;
+       width: 50%;
+       height: 80%;
+       top: 2%;   
+    }
+    .mh2{
+        position: relative;
+        font-size: 120%;
+        font-style: oblique;
+        right: 5%;
+        top: 80%;
+    }
+    .mh1{
+        position: relative;
+        left: 50%;
+        top: 1%;
+        font-size: 150%;
+        font-style: oblique;
+        color: rgb(30, 211, 30);
+    }
+    .texto1{ 
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        font-size: 120%;
+    }
+    .segundaseccion{
+       
+        position: absolute;
+        display: flex;
+        top: 70%;
+        width: 100%;
+        height: 48%;
+    }
+    .kawa{
+        position: relative;
+        top: 4%;
+        width: 45%;
+        height: 95%;
+    }
+    .kawatex{
+        position: relative;
+        font-size: 130%;
+        top: 20%;
+    }
+    /* sector de galeria*/
+    .columna3{
+        position: absolute;
+       display: flex;
+       background-color: black;
+       width: 100%;
+       height: 150%;
+    }
+    .galeria1{
+        position: relative;
+        left: 2%;
+        width: 46%;
+        height: 35%;
+    }
+    .galeria2{
+        position: relative;
+        left: 4%;
+        width:46% ;
+        height: 35%;
+    }
+    .galeria3{
+        position: relative;
+        right: 65%;
+        top: 36%;
+        width: 80%;
+        height: 30%;
+    }
+    .video{
+        position: relative;
+      width: 450px;
+      height: 40%;
+      right: 110%;
+      top: 60%;
+    
+    }
+}
+@media (max-width:1200px) and (max-height:800px){
+    .navegacion{
+        padding: 10px;
+    }
+    .links{
+        text-decoration: none;
+        font-size: 100%;
+        color: black;
+        border: solid black;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    /* sector de redes*/
+    .columna{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+         width: 100%;
+        height: 60px;
+        bottom: 0;
+        top: 120%;
+    }
+    
+    .instagram{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 4px;
+        text-decoration: none;
+        font-size: 110%;
+        right: 35%;
+    
+    
+    } 
+    .facebook{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 110%;
+        
+    
+    }
+    .whatsapp{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+    font-size: 110%;
+    left: 35%;
+    
+    }
+    /* img y h1*/
+    .imgyh1{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 35%;
+    }
+    .img1{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .h1{
+        position: relative;
+        font-style: oblique;
+        font-size: xx-large;
+    }
+    /* primer parte*/
+    .primeraparte{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 38%;
+        top: 40%;
+    }
+    .text1{
+        position: relative;
+        font-size: 120%;
+        
+        top: 20%;
+    }
+    .img2{
+        position: relative;
+        width: 60%;
+        height: 100%;
+    }
+    /* sunda parte*/
+    
+    .segundaparte{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 40%;
+        top: 79%;
+        justify-content: center;
+        
+        
+    }
+    .text2{
+        position: absolute;
+        font-size: 120%;
+        left: 60%;
+
+    
+    }
+    
+    .img3{
+        width: 60%;
+        height: 100%;
+    }
+    /* sector contacto*/
+    .columna2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    .textc1{
+        font-size: 120%;
+        color: rgb(21, 255, 0);
+    }
+    .form_control{ 
+        font-size: 120%;
+        position: absolute;
+        color: aqua;
+       
+       
+    }
+    .contc{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 50%;
+    }
+    .cuad{
+        position: relative;
+        right: 40%;
+        width: 300%;
+    }
+    
+    /* SECtor infoh2*/
+    
+    .primerparte{
+        
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 65%;
+    }
+    .titulo1{
+           
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
+    
+    .texth1{
+        position: relative;
+        font-size: 85%;
+        left: 22%;
+    }
+    .titulo2{
+        font-size: 150%;
+        color: rgb(35, 199, 35);
+    }
+    
+    .texth2{
+        position: relative;
+        font-size: 90%;
+        top: 49%;
+        right: 20%;
+    }
+    .imgh1{
+        width: 50%;
+        height: 90%;
+    
+    }
+    .segundparte{
+       
+        position: absolute;
+        width: 100%;
+        height: 42%;
+        top: 77%;
+       
+    }
+    .conse{
+        position: absolute;
+        width: 50%;
+        top: 45%;
+        font-size: 80%;
+        border: solid rgb(46, 199, 46);
+        border-radius: 120px;
+        color: black;
+    }
+    .imgh2{
+        position: relative;
+        width: 45%;
+        height: 100%;
+        left: 52%;
+    }
+    /*apertura de columna de h2*/
+    .columna5{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+         width: 100%;
+        height: 50px;
+        top: 120%;
+    }
+    
+    .instagram{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 120%;
+        right: 35%;
+    
+    
+    } 
+    .facebook{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 120%;
+        
+    
+    }
+    .whatsapp{
+        position: relative;
+        color: rgb(26, 214, 26);
+        border: solid rgb(26, 214, 26);
+        border-radius:30px;
+        padding: 2px;
+        text-decoration: none;
+    font-size: 120%;
+    left: 35%;
+    
+    }
+    /* cierre de h2*/
+
+    /* sector de modelos*/
+    .primerseccion{
+        
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 50%;
+       
+    }
+    .imgm1{
+        position: absolute;
+       width: 50%;
+       height: 80%;
+       top: 2%;   
+    }
+    .mh2{
+        position: relative;
+        font-size: 120%;
+        font-style: oblique;
+        right: 5%;
+        top: 80%;
+    }
+    .mh1{
+        position: relative;
+        left: 50%;
+        top: 1%;
+        font-size: 150%;
+        font-style: oblique;
+        color: rgb(30, 211, 30);
+    }
+    .texto1{ 
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        font-size: 120%;
+    }
+    .segundaseccion{
+        
+        position: absolute;
+        display: flex;
+        top: 70%;
+        width: 100%;
+        height: 48%;
+    }
+    .kawa{
+        position: relative;
+        top: 4%;
+        width: 45%;
+        height: 95%;
+    }
+    .kawatex{
+        position: relative;
+        font-size: 130%;
+        top: 20%;
+    }
+    /* sector de galeria*/
+    .columna3{
+        position: absolute;
+       display: flex;
+       background-color: black;
+       width: 100%;
+       height: 150%;
+    }
+    .galeria1{
+        position: relative;
+        left: 2%;
+        width: 46%;
+        height: 35%;
+    }
+    .galeria2{
+        position: relative;
+        left: 4%;
+        width:46% ;
+        height: 35%;
+    }
+    .galeria3{
+        position: relative;
+        right: 65%;
+        top: 36%;
+        width: 80%;
+        height: 30%;
+    }
+    .video{
+        position: relative;
+      width: 450px;
+      height: 40%;
+      right: 110%;
+      top: 60%;
+    
+    }
 }
